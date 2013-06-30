@@ -12,18 +12,22 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=device-width" />
-<title></title>
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<script src="<?php echo get_template_directory_uri(); ?>/static/js/jquery-1.8.2.min.js" type="text/javascript"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/static/js/bootstrap.min.js" type="text/javascript"></script>
-<?php
+    <meta charset="<?php bloginfo( 'charset' ); ?>" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+    <?php
     wp_head();
-?>
+    ?>
 </head>
-
 <body <?php body_class(); ?>>
+<!-- START HEADER-->
+<div class="row-fluid">
+    <div class="span12">
+        header
+    </div>
+</div>
+<!-- END HEADER-->
 <div class="container">

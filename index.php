@@ -1,10 +1,12 @@
 <?php get_header(); ?>
+<!-- START MAIN-->
 <div class="row-fluid">
-    <div class="span2">
-    	 span2
-    </div>
-    <div class="span10">
-      	 span10
+  <div class="span4">
+    <?php get_sidebar(); ?>
+  </div>
+  <div class="span8">
+    span8
+  </div>
 </div>
-<?php get_sidebar(); ?>
+<!-- END MAIN-->
 <?php get_footer(); ?>

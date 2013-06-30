@@ -10,4 +10,7 @@
  * */
 @import "static/css/bootstrap.min.css";
 @import "static/css/bootstrap-responsive.min.css";
-
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}

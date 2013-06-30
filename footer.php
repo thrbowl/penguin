@@ -1,4 +1,5 @@
 </div>
+<!-- END MAIN-->
 <!-- STAER FOOTER-->
 <div class="row-fluid">
   <div class="span12">

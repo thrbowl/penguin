@@ -1,6 +1,11 @@
 <?php get_header(); ?>
 
     <div class="row">
+        <div class="span4">
+
+            <?php get_sidebar(); ?>
+
+        </div>
         <div class="span8">
             <h1>News</h1>
 
@@ -14,11 +19,7 @@
             <?php endif; ?>
 
         </div>
-        <div class="span4">
 
-            <?php get_sidebar(); ?>
-
-        </div>
     </div>
 
 <?php get_footer(); ?>

@@ -1,12 +1,15 @@
-/*
- * Theme Name: Run Penguin
- * Theme URI: http://wordpress.org/
- * Description: I'm running, i'm happy.
+/* *
+ * Theme Name: Penguin
+ * Theme URI: https://github.com/thrbowl/penguin
+ * Description: A Responsive WordPress Theme with Bootstrap
  * Author: Thrbowl
  * Version: 0.1
- * Tag: two columns, bootstrap, jquery
+ * Tag: bootstrap, jquery, responsive, white, two column, fixed width
  *
- * General comments and license statement (optional).
+ * License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+ * License URI: http://creativecommons.org/licenses/by-sa/3.0/
+ *
+ * The penguin theme is built for my wordpress site, you can access with the url <a href="http://iitshare.com">http://iitshare.com</a>.
  * */
 @import "static/css/bootstrap.min.css";
 @import "static/css/bootstrap-responsive.min.css";
